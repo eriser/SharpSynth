@@ -16,8 +16,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Logic", "Applic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State Persistence", "State Persistence", "{A2330EB2-B4DB-4BCF-B5A7-4162238A065D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows Forms", "User Interfaces\Windows Forms\Windows Forms.csproj", "{9C1D9FA4-2CEF-4A8D-9A27-0EAF01BD9F62}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C1D9FA4-2CEF-4A8D-9A27-0EAF01BD9F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1D9FA4-2CEF-4A8D-9A27-0EAF01BD9F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1D9FA4-2CEF-4A8D-9A27-0EAF01BD9F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1D9FA4-2CEF-4A8D-9A27-0EAF01BD9F62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C1D9FA4-2CEF-4A8D-9A27-0EAF01BD9F62} = {705ADEB6-538E-4F35-94E0-9DE50AF73F66}
 	EndGlobalSection
 EndGlobal
