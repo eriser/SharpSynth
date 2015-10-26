@@ -36,6 +36,10 @@
     <StartupObject>SharpSynth.UserInterface.WindowsForms.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NAudio, Version=1.7.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NAudio.1.7.3\lib\net35\NAudio.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,17 +52,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\PianoKeyEventArgs.cs" />
-    <Compile Include="Controls\ucPianoKeyOctave.cs">
+    <Compile Include="Controls\Knobs\Knob.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Knobs\RangedControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Piano\PianoKeyEventArgs.cs" />
+    <Compile Include="Controls\Piano\ucPianoKeyOctave.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Controls\ucPianoKeyOctave.Designer.cs">
+    <Compile Include="Controls\Piano\ucPianoKeyOctave.Designer.cs">
       <DependentUpon>ucPianoKeyOctave.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\ucPianoKeys.cs">
+    <Compile Include="Controls\Piano\ucPianoKeys.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Controls\ucPianoKeys.Designer.cs">
+    <Compile Include="Controls\Piano\ucPianoKeys.Designer.cs">
       <DependentUpon>ucPianoKeys.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMainWindow.cs">
@@ -69,10 +79,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Controls\ucPianoKeyOctave.resx">
+    <Compile Include="SineWaveProvider32.cs" />
+    <Compile Include="WaveProvider32.cs" />
+    <EmbeddedResource Include="Controls\Piano\ucPianoKeyOctave.resx">
       <DependentUpon>ucPianoKeyOctave.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Controls\ucPianoKeys.resx">
+    <EmbeddedResource Include="Controls\Piano\ucPianoKeys.resx">
       <DependentUpon>ucPianoKeys.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMainWindow.resx">
@@ -88,6 +100,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

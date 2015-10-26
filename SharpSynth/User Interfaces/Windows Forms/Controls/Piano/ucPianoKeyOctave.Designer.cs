@@ -45,7 +45,10 @@
             // btnASharp
             // 
             this.btnASharp.BackColor = System.Drawing.Color.Black;
-            this.btnASharp.Location = new System.Drawing.Point(207, 1);
+            this.btnASharp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnASharp.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnASharp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnASharp.Location = new System.Drawing.Point(219, 1);
             this.btnASharp.Name = "btnASharp";
             this.btnASharp.Size = new System.Drawing.Size(29, 101);
             this.btnASharp.TabIndex = 23;
@@ -56,7 +59,10 @@
             // btnGSharp
             // 
             this.btnGSharp.BackColor = System.Drawing.Color.Black;
-            this.btnGSharp.Location = new System.Drawing.Point(169, 1);
+            this.btnGSharp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGSharp.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnGSharp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGSharp.Location = new System.Drawing.Point(180, 1);
             this.btnGSharp.Name = "btnGSharp";
             this.btnGSharp.Size = new System.Drawing.Size(29, 101);
             this.btnGSharp.TabIndex = 22;
@@ -67,7 +73,10 @@
             // btnFSharp
             // 
             this.btnFSharp.BackColor = System.Drawing.Color.Black;
-            this.btnFSharp.Location = new System.Drawing.Point(134, 1);
+            this.btnFSharp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFSharp.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnFSharp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFSharp.Location = new System.Drawing.Point(141, 1);
             this.btnFSharp.Name = "btnFSharp";
             this.btnFSharp.Size = new System.Drawing.Size(29, 101);
             this.btnFSharp.TabIndex = 21;
@@ -78,7 +87,10 @@
             // btnDSharp
             // 
             this.btnDSharp.BackColor = System.Drawing.Color.Black;
-            this.btnDSharp.Location = new System.Drawing.Point(60, 1);
+            this.btnDSharp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDSharp.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnDSharp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDSharp.Location = new System.Drawing.Point(64, 1);
             this.btnDSharp.Name = "btnDSharp";
             this.btnDSharp.Size = new System.Drawing.Size(29, 101);
             this.btnDSharp.TabIndex = 20;
@@ -89,6 +101,9 @@
             // btnCSharp
             // 
             this.btnCSharp.BackColor = System.Drawing.Color.Black;
+            this.btnCSharp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCSharp.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnCSharp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCSharp.Location = new System.Drawing.Point(25, 1);
             this.btnCSharp.Name = "btnCSharp";
             this.btnCSharp.Size = new System.Drawing.Size(29, 101);
@@ -100,7 +115,9 @@
             // btnB
             // 
             this.btnB.BackColor = System.Drawing.Color.White;
-            this.btnB.Location = new System.Drawing.Point(221, 1);
+            this.btnB.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnB.Location = new System.Drawing.Point(234, 0);
             this.btnB.Name = "btnB";
             this.btnB.Size = new System.Drawing.Size(39, 167);
             this.btnB.TabIndex = 18;
@@ -111,7 +128,9 @@
             // btnA
             // 
             this.btnA.BackColor = System.Drawing.Color.White;
-            this.btnA.Location = new System.Drawing.Point(184, 1);
+            this.btnA.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnA.Location = new System.Drawing.Point(195, 0);
             this.btnA.Name = "btnA";
             this.btnA.Size = new System.Drawing.Size(39, 167);
             this.btnA.TabIndex = 17;
@@ -122,7 +141,9 @@
             // btnG
             // 
             this.btnG.BackColor = System.Drawing.Color.White;
-            this.btnG.Location = new System.Drawing.Point(147, 1);
+            this.btnG.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnG.Location = new System.Drawing.Point(156, 0);
             this.btnG.Name = "btnG";
             this.btnG.Size = new System.Drawing.Size(39, 167);
             this.btnG.TabIndex = 16;
@@ -133,7 +154,9 @@
             // btnF
             // 
             this.btnF.BackColor = System.Drawing.Color.White;
-            this.btnF.Location = new System.Drawing.Point(110, 1);
+            this.btnF.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnF.Location = new System.Drawing.Point(117, 0);
             this.btnF.Name = "btnF";
             this.btnF.Size = new System.Drawing.Size(39, 167);
             this.btnF.TabIndex = 15;
@@ -144,7 +167,9 @@
             // btnE
             // 
             this.btnE.BackColor = System.Drawing.Color.White;
-            this.btnE.Location = new System.Drawing.Point(74, 1);
+            this.btnE.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnE.Location = new System.Drawing.Point(78, 0);
             this.btnE.Name = "btnE";
             this.btnE.Size = new System.Drawing.Size(39, 167);
             this.btnE.TabIndex = 14;
@@ -155,7 +180,10 @@
             // btnD
             // 
             this.btnD.BackColor = System.Drawing.Color.White;
-            this.btnD.Location = new System.Drawing.Point(38, 1);
+            this.btnD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnD.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnD.Location = new System.Drawing.Point(39, 0);
             this.btnD.Name = "btnD";
             this.btnD.Size = new System.Drawing.Size(39, 167);
             this.btnD.TabIndex = 13;
@@ -166,7 +194,10 @@
             // btnC
             // 
             this.btnC.BackColor = System.Drawing.Color.White;
-            this.btnC.Location = new System.Drawing.Point(1, 1);
+            this.btnC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnC.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnC.Location = new System.Drawing.Point(0, 0);
             this.btnC.Name = "btnC";
             this.btnC.Size = new System.Drawing.Size(39, 167);
             this.btnC.TabIndex = 12;
@@ -192,7 +223,7 @@
             this.Controls.Add(this.btnD);
             this.Controls.Add(this.btnC);
             this.Name = "ucPianoKeyOctave";
-            this.Size = new System.Drawing.Size(260, 167);
+            this.Size = new System.Drawing.Size(274, 167);
             this.ResumeLayout(false);
 
         }
